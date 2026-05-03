@@ -1,0 +1,10 @@
+[package]
+name = "sudoku-sat"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+cryptominisat = "5.8.0"
+
+[features]
+test-bin = []
